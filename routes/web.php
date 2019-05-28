@@ -13,24 +13,11 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', 'PageController@index');
 
-Route::get('/events', function () {
-    return view('events');
-});
+Route::get('/events', 'PageController@events');
 
-Route::post('/send_msg', function(Request $request){
-    //$data = $request->json()->all();
+//Route::post('/send_msg', 'PageController@send_mail');
 
-    $to_name = 'test';
-    $to_email = 'ivartheoli@gmail.com';
-    $data = array('name'=>"Sam Jose", "body" => "Test mail");
-        
-    Mail::send('emails.mail', $data, function($message) use ($to_name, $to_email) {
-        $message->to($to_email, $to_name)
-                ->subject('Artisans Web Testing Mail');
-        $message->from('FROM_EMAIL_ADDRESS','Artisans Web');
-    });
-});
+
+Route::post('/send_msg', 'PageController@send_mail');
