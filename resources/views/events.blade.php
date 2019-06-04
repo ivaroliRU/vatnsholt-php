@@ -173,7 +173,7 @@
                                     <img class="d-block w-100 event-img" src="images/events/hladbord1.jpg" alt="Slide">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100 event-img" src="images/events/joiBar.jpg" alt="Slide">
+                                    <img class="d-block w-100 event-img" src="images/bar1.jpg" alt="Slide">
                                 </div>
                                 <div class="carousel-item">
                                     <img class="d-block w-100 event-img" src="images/events/Jol-12.jpg" alt="Slide">

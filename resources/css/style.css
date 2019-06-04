@@ -1632,6 +1632,10 @@ a {
   object-fit: cover;
 }
 
+.activity > h3{
+  padding-top: 15px !important;
+}
+
 .social-button{
   font-size: 50px;
   color: white !important;

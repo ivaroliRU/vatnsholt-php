@@ -69,7 +69,7 @@
   </div>
   <div class="site-wrap">
     <div class="slide-one-item home-slider owl-carousel">
-      <div class="site-blocks-cover overlay" style="background-image: url(images/vholt1.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+      <div class="site-blocks-cover overlay" style="background-image: url(images/outside3.jpeg);" data-aos="fade" data-stellar-background-ratio="0.5">
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <div class="col-md-7 text-center" data-aos="fade">
@@ -83,13 +83,27 @@
         </div>
       </div>
 
-      <div class="site-blocks-cover overlay" style="background-image: url(images/Vatnsholt-view-Yellow-house.jpg);" data-aos="fade"
+      <div class="site-blocks-cover overlay" style="background-image: url(images/outside8.jpeg);" data-aos="fade"
         data-stellar-background-ratio="0.5">
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <div class="col-md-7 text-center" data-aos="fade">
               <h1 class="mb-2">Experience Icelandic Countryside</h1>
               <h2 class="caption">Enjoy With Us</h2>
+              <div style="margin-bottom: 50px;"></div>
+              <a href="#booknow" class="cool-btn2">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="site-blocks-cover overlay" style="background-image: url(images/outside5.jpeg);" data-aos="fade"
+        data-stellar-background-ratio="0.5">
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-md-7 text-center" data-aos="fade">
+              <h1 class="mb-2">Get In Touch With Icelandic Nature</h1>
+              <h2 class="caption">Make New Memories</h2>
               <div style="margin-bottom: 50px;"></div>
               <a href="#booknow" class="cool-btn2">Book Now</a>
             </div>
@@ -107,12 +121,11 @@
         </div>
         <div class="row">
           <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Deluxe Room", "price": 26030, "details":"We offer one deluxe room with king size bed. There is private bathroom with bath.",
-                    "images" : ["images/deluxe_01.jpg", "images/deluxe_02.jpg", "images/deluxe_03.jpg", "images/deluxe_04.jpg", "images/deluxe_05.jpg"]}'
+                    "images" : ["images/delux2.jpeg", "images/delux1.jpeg", "images/delux3.jpeg", "images/delux4.jpeg"]}'
             id="0">
             <div class="hotel-room text-center">
               <a class="d-block mb-0 thumbnail">
-                <img src="images/Delux-room-nr.-9-1024x426.jpg" alt="Image" class=" img-fluid double-image">
-                <img src="images/WC-Delux-room-nr.-9.jpg" alt="Image" class=" img-fluid double-image">
+                <img src="images/delux2.jpeg" alt="Image" class="img-fluid room-img">
               </a>
               <div class="hotel-room-body">
                 <h3 class="heading mb-0">
@@ -125,10 +138,10 @@
             </div>
           </div>
           <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Double Room", "price": 19810, "details":"Are you looking for the cheapest offer? Choose one of ours rooms with shared bathroom. There is one double bed or two single beds in each room and on the same floor, you can find shared bathroom (shared with 2 or 3 other rooms).You can choose from 2 or 3 bathrooms in the house, so there is always some available for you.",
-            "images": ["images/dbl_no_bath1.png", "images/dbl_no_bath2.png", "images/dbl_no_bath3.png"]}' id="1">
+            "images": ["images/double-s1.jpeg", "images/double-s2.jpeg", "images/double-s5.jpeg", "images/double-s6.jpeg", "images/shared-bathroom1.jpeg"]}' id="1">
             <div class="hotel-room text-center">
               <a class="d-block mb-0 thumbnail">
-                <img src="images/White-house-double-room-5-1024x787.jpg" alt="Image" class="img-fluid room-img">
+                <img src="images/double-s1.jpeg" alt="Image" class="img-fluid room-img">
               </a>
               <div class="hotel-room-body">
                 <h3 class="heading mb-0">
@@ -141,17 +154,16 @@
             </div>
           </div>
           <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Double Room", "price": 23990, "details":"Double room with a private bathroom. There is one double bed or two single beds in each room. ",
-          "images":["images/Long-building-double-bed-1-1024x787.jpg", "images/Long-building-double-bed-1024x787.jpg", 
-          "images/Long-building-Twin-bed-1024x787.jpg", "images/Long-building-WC-1024x787.jpg", "images/Hallway-Long-building-1024x787.jpg"]}'>
+          "images":["images/double-p1.jpeg", "images/double-p2.jpeg", "images/double-p3.png", "images/double-p4.png"]}'>
             <div class="hotel-room text-center">
               <a class="d-block mb-0 thumbnail">
-                <img src="images/Long-building-double-bed-1-1024x787.jpg" alt="Image" class="img-fluid room-img">
+                <img src="images/double-p1.jpeg" alt="Image" class="img-fluid room-img">
               </a>
               <div class="hotel-room-body">
                 <h3 class="heading mb-0">
                   <a href="#">Double Room</a>
                 </h3>
-                <strong class="price">With private bath</strong>
+                <strong class="price">With private bathroom</strong>
                 <br>
                 <strong class="price">23.990 kr / per night</strong>
               </div>
@@ -159,11 +171,10 @@
           </div>
 
           <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Family Room", "price": 34090, "details":"We offer two family rooms for 4 people. Every family room at our farmhouse has private bathroom with shower and toilet. There is one double bed and one bunk bed in the room.",
-          "images": ["images/4_preson_fam_1.png", "images/4_person_fam_fixed1.png", "images/4_person_fam_3.png",
-          "images/4_person_fam_4.png", "images/4_person_fam_fixed2.png"]}'>
+          "images": ["images/family1.jpeg", "images/family2.jpeg", "images/family3.jpeg"]}'>
             <div class="hotel-room text-center">
               <a class="d-block mb-0 thumbnail">
-                <img src="images/4_preson_fam_1.png" alt="Image" class="img-fluid room-img">
+                <img src="images/family1.jpeg" alt="Image" class="img-fluid room-img">
               </a>
               <div class="hotel-room-body">
                 <h3 class="heading mb-0">
@@ -176,10 +187,10 @@
             </div>
           </div>
           <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Family Room", "price": 40310, "details":"We offer one family rooms for 6 people. Every family room at our farmhouse has private bathroom with shower and toilet. There is one double bed and two bunk beds in the room.", 
-          "images": ["images/6_pers_fam.jpg", "images/6_pers_fam1.jpg"]}'>
+          "images": ["images/familylarge1.jpeg", "images/familylarge2.jpeg", "images/familylarge3.jpeg", "images/familylarge4.jpeg", "images/familylarge5.jpeg", "images/familylarge6.jpeg"]}'>
             <div class="hotel-room text-center">
               <a class="d-block mb-0 thumbnail">
-                <img src="images/6_pers_fam.jpg" alt="Image" class="img-fluid room-img">
+                <img src="images/familylarge1.jpeg" alt="Image" class="img-fluid room-img">
               </a>
               <div class="hotel-room-body">
                 <h3 class="heading mb-0">
@@ -192,10 +203,10 @@
             </div>
           </div>
           <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Cottage", "price": 24910, "details":"Although the cottage looks small, there is a comfy bed, a table and a small bathroom with a shower. The view from the window while waking up is amazing.\n 1 double bed",
-            "images": ["images/cott_1.png", "images/cott_2.png", "images/cott_3.png", "images/cott_4.png"]}'>
+            "images": ["images/cottage1.jpeg", "images/cottage2.jpeg", "images/cottage3.png"]}'>
             <div class="hotel-room text-center">
               <a class="d-block mb-0 thumbnail">
-                <img src="images/Cottage-out-side-1024x787.jpg" alt="Image" class="img-fluid room-img">
+                <img src="images/cottage1.jpeg" alt="Image" class="img-fluid room-img">
               </a>
               <div class="hotel-room-body">
                 <h3 class="heading mb-0">
@@ -208,10 +219,10 @@
             </div>
           </div>
           <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Container", "price": 16750, "details": "Container bulding with 4 rooms, nice view out on the field, private bathroom.\n One single bed and one bunk bed.",
-              "images": ["images/container_1.png", "images/container_2.png", "images/container_3.png", "images/container_4.png"]}'>
+              "images": ["images/container2.jpeg", "images/container1.jpeg", "images/container3.jpeg", "images/container4.jpeg"]}'>
             <div class="hotel-room text-center">
               <a class="d-block mb-0 thumbnail">
-                <img src="images/725c1541_z.jpg" alt="Image" class="img-fluid room-img">
+                <img src="images/container2.jpeg" alt="Image" class="img-fluid room-img">
               </a>
               <div class="hotel-room-body">
                 <h3 class="heading mb-0">
@@ -223,10 +234,10 @@
               </div>
             </div>
           </div>
-          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Three Bedroom Apartment", "price": 16750, "details":"", "images":["images/studio.jpg"]}'>
+          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Three Bedroom Apartment", "price": 16750, "details":"", "images":["images/studio1.png", "images/studio2.png", "images/studio4.png", "images/studio3.png"]}'>
             <div class="hotel-room text-center">
               <a class="d-block mb-0 thumbnail">
-                <img src="images/studio.jpg" alt="Image" class="img-fluid">
+                <img src="images/studio1.png" alt="Image" class="img-fluid room-img">
               </a>
               <div class="hotel-room-body">
                 <h3 class="heading mb-0">
@@ -238,18 +249,18 @@
               </div>
             </div>
           </div>
-          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Blue House", "price": 16750, "details":"A beautiful house, just for youself and your family", "images":["images/studio.jpg"]}'>
+          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Blue House", "price": 16750, "details":"A beautiful house, just for youself and your family. Contains five rooms which share two bathrooms.", "images":["images/blue-h1.png","images/blue-h2.png","images/blue-h3.png","images/blue-h4.png", "images/blue-h5.png", "images/blue-h7.png", "images/blue-h6.png"]}'>
             <div class="hotel-room text-center">
               <a class="d-block mb-0 thumbnail">
-                <img src="images/studio.jpg" alt="Image" class="img-fluid">
+                <img src="images/blue-h1.png" alt="Image" class="img-fluid room-img">
               </a>
               <div class="hotel-room-body">
                 <h3 class="heading mb-0">
                   <a href="#">Blue House</a>
                 </h3>
-                <strong class="price">With private bathroom</strong>
+                <strong class="price">With two bathrooms</strong>
                 <br>
-                <strong class="price">XX.XXX kr / per night</strong>
+                <strong class="price">75.000 kr / per night</strong>
               </div>
             </div>
           </div>
@@ -323,7 +334,7 @@
         <div class="row">
           <div class="col-md-6">
             <div class="resturant">
-              <img src="images/food1.jpg" alt="">
+              <img src="images/food1.jpeg" alt="">
               <h3 class="section-subheading">Hotel Restaurant</h3>
               <p>Our restaurant and its adjacent catering- and facility rooms occupy the old quarters in which the long gone
                 Vatnsholt farm hey- & cow-barn used to be, both of which have been carefully converted into an exquisite
@@ -400,7 +411,7 @@
         </div>
         <div class="col-md-4">
           <div class="activity">
-            <img src="images/Northern-lights-5.jpg" alt="">
+            <img src="images/activity3.jpg" alt="">
             <h3 class="section-subheading">Northern Lights</h3>
             <p>The Northern Lights are a spectacular natural occurrence which appears in the dark sky near the Earth’s poles
               around the Arctic and Antarctic Circles. This surreal phenomenon can light up the night sky and take on breathtaking
