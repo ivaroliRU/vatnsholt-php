@@ -55,10 +55,10 @@
               <a class="nav-link" href="#Location">Location</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="events">Events</a>
+              <a class="nav-link" href="#Contact_Us">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Contact_Us">Contact</a>
+              <a class="nav-link" href="events">Events</a>
             </li>
             <li class="nav-item">
               <a class="nav-link cool-btn" href="#booknow">Book Now</a>
