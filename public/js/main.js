@@ -375,20 +375,24 @@ $(function () {
 
 		console.log(JSON.stringify(data));
 		
-
-		try{
-			$.post('/send_msg', data, function (res) {
+		$.ajax({
+			type: 'post',
+            url: '/send_msg',
+            data: JSON.stringify(data),
+            contentType: "application/json; charset=utf-8",
+            traditional: true,
+			success:function(d) {
 				$('#fullname').val("");
 				$('#email').val("");
 				$('#phone').val("");
 				$('#message').val("");
 
 				$("#message-sent-msg").modal("show");
-			});
-		}
-		catch(e){
-			$("#message-error-msg").modal("show");
-		}
+			},
+			error: function(request, status, error){
+				$("#message-error-msg").modal("show");
+			}
+		});
 	});
 })
 

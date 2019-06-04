@@ -17,15 +17,17 @@ class PageController extends Controller
         return view('events');
     }
 
-    public function send_mail(Request $request){
-        $data = $request->json()->all();
-        
-        $name = $data['name'];
-        $email=$data['email'];
-        $phone=$data['phone'];
-        $mess=$data['mess'];
+    /*public function send_mail(Request $request){
+        $data = json_decode($request->getContent(), true);
+        //echo("Sending mail...");
+        echo($data);
 
-        //return response('Message sent', 200);        
+        return response($data, 200);
+
+        $name = $data['name'];
+        $email = $data['email'];
+        $phone = $data['phone'];
+        $mess = $data['mess'];   
 
         $mail_data = array('name'=>$name, 'email'=>$email, 'phone'=>$phone, 'mess'=>$mess);
         
@@ -36,5 +38,5 @@ class PageController extends Controller
             $message->from('vatnsholt.messages@gmail.com','Vatnsholt Messages');
         });
         return response('Message sent', 200);
-    }
+    }*/
 }
