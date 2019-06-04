@@ -1707,7 +1707,7 @@ a {
 
 .see-more{
   position: absolute;
-  bottom: 8px !important;
+  bottom: 18px !important;
   text-align: left;
   padding-left: 8px;
   padding-bottom: 8px;
@@ -1756,11 +1756,11 @@ a {
   }
 
   .activity{
-    margin-bottom: 15px;
+    margin-bottom: 30px;
   }
 
   .resturant{
-    margin-bottom: 15px;
+    margin-bottom: 30px;
   }
 
   .certificates{
