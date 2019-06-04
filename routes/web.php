@@ -20,4 +20,4 @@ Route::get('/events', 'PageController@events');
 //Route::post('/send_msg', 'PageController@send_mail');
 
 
-Route::post('/send_msg', 'PageController@send_mail');
+Route::post('send_msg', 'PageController@send_mail');

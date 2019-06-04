@@ -367,25 +367,28 @@ jQuery(document).ready(function ($) {
 $(function () {
 	$('form').submit(function () {
 		var data = {
-			fullname: $('#fullname').val(),
+			name: $('#fullname').val(),
 			email: $('#email').val(),
 			phone: $('#phone').val(),
-			message: $('#message').val()
+			mess: $('#message').val()
 		};
 
-		$.post('/send_msg', data, function (res) {
-			if (res.status == 200) {
+		console.log(JSON.stringify(data));
+		
+
+		try{
+			$.post('/send_msg', data, function (res) {
 				$('#fullname').val("");
 				$('#email').val("");
 				$('#phone').val("");
 				$('#message').val("");
 
 				$("#message-sent-msg").modal("show");
-			}
-			else {
-				$("#message-error-msg").modal("show");
-			}
-		});
+			});
+		}
+		catch(e){
+			$("#message-error-msg").modal("show");
+		}
 	});
 })
 

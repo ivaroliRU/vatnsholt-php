@@ -207,7 +207,7 @@
               </div>
             </div>
           </div>
-          <div class="room-detail col-md-6 col-lg-6 mb-5" data-details='{"name" : "Container", "price": 16750, "details": "Container bulding with 4 rooms, nice view out on the field, private bathroom.\n One single bed and one bunk bed.",
+          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Container", "price": 16750, "details": "Container bulding with 4 rooms, nice view out on the field, private bathroom.\n One single bed and one bunk bed.",
               "images": ["images/container_1.png", "images/container_2.png", "images/container_3.png", "images/container_4.png"]}'>
             <div class="hotel-room text-center">
               <a class="d-block mb-0 thumbnail">
@@ -223,7 +223,7 @@
               </div>
             </div>
           </div>
-          <div class="room-detail col-md-6 col-lg-6 mb-5" data-details='{"name" : "Three Bedroom Apartment", "price": 16750, "details":"", "images":["images/studio.jpg"]}'>
+          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Three Bedroom Apartment", "price": 16750, "details":"", "images":["images/studio.jpg"]}'>
             <div class="hotel-room text-center">
               <a class="d-block mb-0 thumbnail">
                 <img src="images/studio.jpg" alt="Image" class="img-fluid">
@@ -235,6 +235,21 @@
                 <strong class="price">With private bathroom</strong>
                 <br>
                 <strong class="price">50.750 kr / per night</strong>
+              </div>
+            </div>
+          </div>
+          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Blue House", "price": 16750, "details":"A beautiful house, just for youself and your family", "images":["images/studio.jpg"]}'>
+            <div class="hotel-room text-center">
+              <a class="d-block mb-0 thumbnail">
+                <img src="images/studio.jpg" alt="Image" class="img-fluid">
+              </a>
+              <div class="hotel-room-body">
+                <h3 class="heading mb-0">
+                  <a href="#">Blue House</a>
+                </h3>
+                <strong class="price">With private bathroom</strong>
+                <br>
+                <strong class="price">XX.XXX kr / per night</strong>
               </div>
             </div>
           </div>
@@ -308,7 +323,7 @@
         <div class="row">
           <div class="col-md-6">
             <div class="resturant">
-              <img src="images/demo.jpg" alt="">
+              <img src="images/food1.jpg" alt="">
               <h3 class="section-subheading">Hotel Restaurant</h3>
               <p>Our restaurant and its adjacent catering- and facility rooms occupy the old quarters in which the long gone
                 Vatnsholt farm hey- & cow-barn used to be, both of which have been carefully converted into an exquisite

@@ -18,14 +18,23 @@ class PageController extends Controller
     }
 
     public function send_mail(Request $request){
+        $data = $request->json()->all();
+        
+        $name = $data['name'];
+        $email=$data['email'];
+        $phone=$data['phone'];
+        $mess=$data['mess'];
 
-        $data = array('name'=>"Ívar Óli");
-        Mail::send('mail', $data, function($message) {
-            $message->to('danield18@ru.is', 'Daniel Aron')->subject
-                ('Laravel HTML Testing Mail');
-            $message->from('ivartheoli@gmail.com','Ívar Óli');
+        //return response('Message sent', 200);        
+
+        $mail_data = array('name'=>$name, 'email'=>$email, 'phone'=>$phone, 'mess'=>$mess);
+        
+        
+        Mail::send('mail', $mail_data, function($message) {
+            $message->to('info@hotelvatnsholt.is', 'Hótel Vatnsholt')->subject
+                ('Message From Website');
+            $message->from('vatnsholt.messages@gmail.com','Vatnsholt Messages');
         });
-
-        return response('Hello World', 200);
+        return response('Message sent', 200);
     }
 }
