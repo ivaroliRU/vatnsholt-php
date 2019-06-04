@@ -55,10 +55,10 @@
               <a class="nav-link" href="#Location">Location</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="events">Events</a>
+              <a class="nav-link" href="#Contact_Us">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Contact_Us">Contact</a>
+              <a class="nav-link" href="events">Events</a>
             </li>
             <li class="nav-item">
               <a class="nav-link cool-btn" href="#booknow">Book Now</a>
@@ -69,7 +69,7 @@
   </div>
   <div class="site-wrap">
     <div class="slide-one-item home-slider owl-carousel">
-      <div class="site-blocks-cover overlay" style="background-image: url(images/outside3.jpeg);" data-aos="fade" data-stellar-background-ratio="0.5">
+      <div class="site-blocks-cover overlay" style="background-image: url(images/outside9.jpeg);" data-aos="fade" data-stellar-background-ratio="0.5">
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <div class="col-md-7 text-center" data-aos="fade">
@@ -234,7 +234,7 @@
               </div>
             </div>
           </div>
-          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Three Bedroom Apartment", "price": 16750, "details":"", "images":["images/studio1.png", "images/studio2.png", "images/studio4.png", "images/studio3.png"]}'>
+          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Studio Apartment", "price": 34000, "details":"A cozy studio apartment, perfect for a small group of friends or family that enjoy seclusion.", "images":["images/studio1.png", "images/studio2.png", "images/studio4.png", "images/studio3.png"]}'>
             <div class="hotel-room text-center">
               <a class="d-block mb-0 thumbnail">
                 <img src="images/studio1.png" alt="Image" class="img-fluid room-img">
@@ -245,11 +245,11 @@
                 </h3>
                 <strong class="price">With private bathroom</strong>
                 <br>
-                <strong class="price">50.750 kr / per night</strong>
+                <strong class="price">34.000 kr / per night</strong>
               </div>
             </div>
           </div>
-          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Blue House", "price": 16750, "details":"A beautiful house, just for youself and your family. Contains five rooms which share two bathrooms.", "images":["images/blue-h1.png","images/blue-h2.png","images/blue-h3.png","images/blue-h4.png", "images/blue-h5.png", "images/blue-h7.png", "images/blue-h6.png"]}'>
+          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Blue House", "price": 75000, "details":"A beautiful house, just for youself and your family. Contains five rooms which share two bathrooms.", "images":["images/blue-h1.png","images/blue-h2.png","images/blue-h3.png","images/blue-h4.png", "images/blue-h5.png", "images/blue-h7.png", "images/blue-h6.png"]}'>
             <div class="hotel-room text-center">
               <a class="d-block mb-0 thumbnail">
                 <img src="images/blue-h1.png" alt="Image" class="img-fluid room-img">
@@ -346,7 +346,7 @@
           </div>
           <div class="col-md-6">
             <div class="resturant">
-              <img src="images/demo2.jpg" alt="">
+              <img src="images/blind-raven.png" alt="">
               <h3 class="section-subheading">Blind Raven</h3>
               <p>Blind Raven takes place in a dark restaurant, where the customers do not see the food they are eating. The
                 basic concept is that the removal of vision enhances the other senses and increases gastronomic pleasure.
@@ -671,7 +671,7 @@
               </h5>
             </li>
             <li>
-              <h5 class="modal-heading">Parking
+              <h5 class="modal-heading">Free Parking
                 <i class="fas fa-check"></i>
               </h5>
             </li>

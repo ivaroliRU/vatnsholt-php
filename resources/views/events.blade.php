@@ -57,10 +57,10 @@
                         <a class="nav-link" href="/">Location</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Events</a>
+                        <a class="nav-link" href="/">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/">Contact</a>
+                        <a class="nav-link active" href="#">Events</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link cool-btn" href="https://property.godo.is/booking.php?numnight=1&numadult=2&checkin=&checkout=&propid=21258&lang=en">Book Now</a>
@@ -87,7 +87,7 @@
         </div>
 
         <div class="row events-section bg-light align-items-center">
-            <div class="col-6 col-sm-6 events-content-image" data-toggle="modal" data-target="#partyGalleryModal">
+            <div class="col-6 col-sm-6 events-content-image" data-toggle="modal" data-target="#fermingGalleryModal">
                 <img src="images/geggjuð_mynd.jpg" alt="" srcset="">
                 <div class="events-overlay-right">
                     <div class="text">
@@ -195,6 +195,63 @@
                                 </div>
                                 <div class="carousel-item">
                                     <img class="d-block w-100 event-img" src="images/events/wedding1.jpg" alt="Slide">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="fermingGalleryModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Gallery</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body party-gallery-body">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators indicators-fo-us-dawg">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1" class=""></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2" class=""></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="3" class=""></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="4" class=""></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="5" class=""></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="6" class=""></li>
+                            </ol>
+                            <div class="carousel-inner" id="room-det-carusel">
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 event-img" src="images/events/geggjud_mynd.jpg" alt="Slide">
+                                </div>
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100 event-img" src="images/events/ferming_05.jpg" alt="Slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 event-img" src="images/events/ferming_03.jpg" alt="Slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 event-img" src="images/events/ferming_02.jpg" alt="Slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 event-img" src="images/events/ferming_06.jpg" alt="Slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 event-img" src="images/events/ferming_07.jpg" alt="Slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 event-img" src="images/events/ferming_08.jpg" alt="Slide">
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

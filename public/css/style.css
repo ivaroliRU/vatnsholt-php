@@ -1647,7 +1647,11 @@ a {
 }
 
 .page-footer{
-  background-color: grey;
+  background-color: #f23a2e;
+}
+
+.footer-copyright{
+  color: white;
 }
 
 .room-img{
