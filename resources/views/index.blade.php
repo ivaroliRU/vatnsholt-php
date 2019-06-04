@@ -397,19 +397,7 @@
               allowfullscreen></iframe>
           </div>
           <div class="col-md-6 ml-auto">
-            <p class="mb-4">Við eigendur staðarins erum hjónin Jóhann Helgi Hlöðversson og Margrét Ormsdóttir. Árið 2005 festum við kaup
-              á jörðinni Vartnsholti, tókum okkur upp og fluttum ásamt börnum okkar úr Hafnarfirði austur fyrir fjall og
-              settumst að í Vatnsholti.
-              <br> Húsakynni vöru í talsverðri niðurníðslu og máttum við því heldur betur taka til hendinni. Kreppan árið 2008
-              setti stórt strik í reikninginn, bankar urðu gjaldþrota, lán hækkuðu og viðskiptu drógust saman. En þrátt fyrir
-              ógnarhramm kreppunnar og mikil fjárútlát við endurbætur, snerum við vörn í sókn og árið 2010 opnuðum við sveitagistiheimilið
-              Vatnsholt með 14 gistiherbergum.
-              <br> Skömmu síðar værðum við enn út kvíarnar, og í dag getum við boðið 34 gistiherbergi og veitingasali fyrir allt
-              að 300 manns.
-              <br> Vatnsholt er líf okkar og yndi og við lítum á gesti okkar sem hluta fjölskyldunnar, meðan þeir staldra við.
-              Það er okkur persónulegur heiður að fá að taka á móti ykkur hér í sveitasælunni, í von um að þið eigið hjá
-              okkur góða daga.
-              <br> Hér er meðfylgjandi myndband sem lýsir þeim breytingum sem orðið hafa á Vatnsholti í tímans rás:</p>
+            <p class="mb-4">The owners are the married couple Jóhann Helgi Hlöðversson and Margrét Ormsdóttir. In the year 2005 we bought the farm Vatnsholt and moved straight away from Reykjavík with our children east to the farm. Initially the farm was in a dire state of disrepair, which promted us to start repairing the place up. The financial crisis of 2008 set us back significantly, banks became bankrupt, instrests of loans became higher and business contracted. Threw the harsh economic crisis and the amount of money needed for rebuilding, we turned defence to offence and the year 2010 we opened guesthouse Vatnsholt with 14 rooms. Shortly after we expanded our business, and today we have 34 rooms to offer and a restaurant that can accommodate up to 300 people. Vatnsholt is our life and we look at our guests as part of our family, while they stay with us. It is our honor to welcome you to the countryside, with hope that you enjoy your stay with us.<br> The following video describes all of the changes that have taken place in Vatnsholt the past years.</p>
           </div>
         </div>
       </div>

@@ -53,28 +53,28 @@
             <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                <a class="nav-link" href="#" title="Iceland Guesthouse">Home</a>
+                <a class="nav-link" href="/" title="Iceland Guesthouse">Home</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#Our_Rooms" title="South Iceland Rooms">Rooms</a>
+                <a class="nav-link" href="/" title="South Iceland Rooms">Rooms</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#Restaurant" title="Icelandic Restaurant">Restaurant</a>
+                <a class="nav-link" href="/" title="Icelandic Restaurant">Restaurant</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#About_us" title="About South Iceland Hotel">About</a>
+                <a class="nav-link" href="/" title="About South Iceland Hotel">About</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#Location" title="Location In south Iceland">Location</a>
+                <a class="nav-link" href="/" title="Location In south Iceland">Location</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#Contact_Us" title="Contact Us">Contact</a>
+                <a class="nav-link" href="/" title="Contact Us">Contact</a>
                 </li>
                 <li class="nav-item active">
-                <a class="nav-link" href="events" title="Events with northern lights">Events</a>
+                <a class="nav-link" href="#" title="Events with northern lights">Events</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link cool-btn" href="#booknow" title="Books south iceland hotel">Book Now</a>
+                <a class="nav-link cool-btn" href="/" title="Books south iceland hotel">Book Now</a>
                 </li>
             </ul>
             </div>
