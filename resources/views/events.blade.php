@@ -2,9 +2,20 @@
 <html lang="en">
 
 <head>
-    <title>Hotel Vatnsholt - Guesthouse</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140692505-2"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-140692505-2');
+    </script>
+
+    <title>Hotel Vatnsholt - Events</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Salir fyrir ráðstefnur, fundir, fermingar, giftingar, saumaklúbbar, fyrirtækjaskemmtanir, árshátíðir, villibráðahlaðborð og jólahlaðborð allt þetta og fleira í boði hjá okkur á hotelvatnsholt.is">
 
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Work+Sans:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
@@ -32,7 +43,7 @@
 <body>
     <div class="site-navbar-wrap js-site-navbar bg-white scrolled">
         <nav class="site-navbar navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="/">
                 <img class="logo-img" src="images/logo.png" alt="" srcset="">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -40,32 +51,32 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/">Rooms</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/">Restaurant</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/#Activities">Activities</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/">Location</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Events</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link cool-btn" href="https://property.godo.is/booking.php?numnight=1&numadult=2&checkin=&checkout=&propid=21258&lang=en">Book Now</a>
-                    </li>
-                </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                <a class="nav-link" href="/" title="Iceland Guesthouse">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="/" title="South Iceland Rooms">Rooms</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="/" title="Icelandic Restaurant">Restaurant</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="/" title="About South Iceland Hotel">About</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="/" title="Location In south Iceland">Location</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="/" title="Contact Us">Contact</a>
+                </li>
+                <li class="nav-item active">
+                <a class="nav-link" href="#" title="Events with northern lights">Events</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link cool-btn" href="/" title="Books south iceland hotel">Book Now</a>
+                </li>
+            </ul>
             </div>
         </nav>
     </div>
@@ -87,7 +98,7 @@
         </div>
 
         <div class="row events-section bg-light align-items-center">
-            <div class="col-6 col-sm-6 events-content-image" data-toggle="modal" data-target="#partyGalleryModal">
+            <div class="col-6 col-sm-6 events-content-image" data-toggle="modal" data-target="#fermingGalleryModal">
                 <img src="images/geggjuð_mynd.jpg" alt="" srcset="">
                 <div class="events-overlay-right">
                     <div class="text">
@@ -137,7 +148,7 @@
                 <h5>Við höfum haldið upp á margar giftingar í salnum okkar í gegnum tíðina, og alltaf hafa þær verið framúr skarandi.</h5>
             </div>
             <div class="col-6 col-sm-6 events-content-image" data-toggle="modal" data-target="#GiftingaModal">
-                <img src="images/events/wedding-18.jpg" alt="" srcset="">
+                <img src="images/events/Wedding-18.jpg" alt="" srcset="">
                 <div class="events-overlay-left">
                     <div class="text">
                         <h1 class="panta-text">Skoða Nánar</h1>
@@ -173,7 +184,7 @@
                                     <img class="d-block w-100 event-img" src="images/events/hladbord1.jpg" alt="Slide">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100 event-img" src="images/bar1.jpg" alt="Slide">
+                                    <img class="d-block w-100 event-img" src="images/bar1.jpeg" alt="Slide">
                                 </div>
                                 <div class="carousel-item">
                                     <img class="d-block w-100 event-img" src="images/events/Jol-12.jpg" alt="Slide">
@@ -202,6 +213,63 @@
                                 <span class="sr-only">Previous</span>
                             </a>
                             <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="fermingGalleryModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Gallery</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body party-gallery-body">
+                        <div id="fermingarIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators indicators-fo-us-dawg">
+                                <li data-target="#fermingarIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#fermingarIndicators" data-slide-to="1" class=""></li>
+                                <li data-target="#fermingarIndicators" data-slide-to="2" class=""></li>
+                                <li data-target="#fermingarIndicators" data-slide-to="3" class=""></li>
+                                <li data-target="#fermingarIndicators" data-slide-to="4" class=""></li>
+                                <li data-target="#fermingarIndicators" data-slide-to="5" class=""></li>
+                                <li data-target="#fermingarIndicators" data-slide-to="6" class=""></li>
+                            </ol>
+                            <div class="carousel-inner" id="room-det-carusel">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100 event-img" src="images/events/geggjud_mynd.jpg" alt="Slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 event-img" src="images/events/ferming_06.jpg" alt="Slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 event-img" src="images/events/ferming_07.jpg" alt="Slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 event-img" src="images/events/ferming_08.jpg" alt="Slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 event-img" src="images/events/ferming_05.jpg" alt="Slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 event-img" src="images/events/ferming_03.jpeg" alt="Slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 event-img" src="images/events/ferming_02.jpeg" alt="Slide">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#fermingarIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#fermingarIndicators" role="button" data-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Next</span>
                             </a>

@@ -1651,7 +1651,11 @@ a {
 }
 
 .page-footer{
-  background-color: grey;
+  background-color: #f23a2e !important;
+}
+
+.footer-copyright{
+  color: white;
 }
 
 .room-img{
@@ -1756,11 +1760,11 @@ a {
   }
 
   .activity{
-    margin-bottom: 15px;
+    margin-bottom: 30px;
   }
 
   .resturant{
-    margin-bottom: 15px;
+    margin-bottom: 30px;
   }
 
   .certificates{

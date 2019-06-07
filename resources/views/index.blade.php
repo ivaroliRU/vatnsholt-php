@@ -2,9 +2,20 @@
 <html lang="en">
 
 <head>
-  <title>Hotel Vatnsholt - Guesthouse</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140692505-2"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-140692505-2');
+  </script>
+  <title>Hotel Vatnsholt - South Iceland Guesthouse</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Beautiful guesthouse in the countryside south of Iceland perfect for an iceladic vacation. amazing northern lights, kid friendly, south icelandic nature. 70km away from the golden circle.">
+
   <meta name="csrf-token" content="{{ csrf_token() }}">
 
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Work+Sans:300,400,700" rel="stylesheet">
@@ -40,28 +51,28 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link" href="#" title="Iceland Guesthouse">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Our_Rooms">Rooms</a>
+              <a class="nav-link" href="#Our_Rooms" title="South Iceland Rooms">Rooms</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Restaurant">Restaurant</a>
+              <a class="nav-link" href="#Restaurant" title="Icelandic Restaurant">Restaurant</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#About_us">About</a>
+              <a class="nav-link" href="#About_us" title="About South Iceland Hotel">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Location">Location</a>
+              <a class="nav-link" href="#Location" title="Location In south Iceland">Location</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Contact_Us">Contact</a>
+              <a class="nav-link" href="#Contact_Us" title="Contact Us">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="events">Events</a>
+              <a class="nav-link" href="events" title="Events with northern lights">Events</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link cool-btn" href="#booknow">Book Now</a>
+              <a class="nav-link cool-btn" href="#booknow" title="Book south iceland hotel">Book Now</a>
             </li>
           </ul>
         </div>
@@ -69,7 +80,7 @@
   </div>
   <div class="site-wrap">
     <div class="slide-one-item home-slider owl-carousel">
-      <div class="site-blocks-cover overlay" style="background-image: url(images/outside3.jpeg);" data-aos="fade" data-stellar-background-ratio="0.5">
+      <div class="site-blocks-cover overlay" style="background-image: url(images/outside9.jpeg);" data-aos="fade" data-stellar-background-ratio="0.5">
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <div class="col-md-7 text-center" data-aos="fade">
@@ -77,7 +88,7 @@
               <h1 class="mb-2">Welcome To Vatnsholt</h1>
               <h2 class="caption">Hotel &amp; Guesthouse
                 <div style="margin-bottom: 50px;"></div>
-                <a href="#booknow" class="cool-btn2">Book Now</a>
+                <a href="#booknow" class="cool-btn2" title="Book south iceland hotel">Book Now</a>
             </div>
           </div>
         </div>
@@ -91,7 +102,7 @@
               <h1 class="mb-2">Experience Icelandic Countryside</h1>
               <h2 class="caption">Enjoy With Us</h2>
               <div style="margin-bottom: 50px;"></div>
-              <a href="#booknow" class="cool-btn2">Book Now</a>
+              <a href="#booknow" class="cool-btn2" title="South Iceland guesthouse booking">Book Now</a>
             </div>
           </div>
         </div>
@@ -105,7 +116,21 @@
               <h1 class="mb-2">Get In Touch With Icelandic Nature</h1>
               <h2 class="caption">Make New Memories</h2>
               <div style="margin-bottom: 50px;"></div>
-              <a href="#booknow" class="cool-btn2">Book Now</a>
+              <a href="#booknow" class="cool-btn2" title="Book rooms in south iceland">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="site-blocks-cover overlay" style="background-image: url(images/outside10.jpeg);" data-aos="fade"
+        data-stellar-background-ratio="0.5">
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-md-7 text-center" data-aos="fade">
+              <h1 class="mb-2">Vatnsholt Bed and Breakfast</h1>
+              <h2 class="caption">Come Visit</h2>
+              <div style="margin-bottom: 50px;"></div>
+              <a href="#booknow" class="cool-btn2" title="Book rooms in south iceland">Book Now</a>
             </div>
           </div>
         </div>
@@ -124,7 +149,7 @@
                     "images" : ["images/delux2.jpeg", "images/delux1.jpeg", "images/delux3.jpeg", "images/delux4.jpeg"]}'
             id="0">
             <div class="hotel-room text-center">
-              <a class="d-block mb-0 thumbnail">
+              <a class="d-block mb-0 thumbnail" title="South Iceland room">
                 <img src="images/delux2.jpeg" alt="Image" class="img-fluid room-img">
               </a>
               <div class="hotel-room-body">
@@ -140,7 +165,7 @@
           <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Double Room", "price": 19810, "details":"Are you looking for the cheapest offer? Choose one of ours rooms with shared bathroom. There is one double bed or two single beds in each room and on the same floor, you can find shared bathroom (shared with 2 or 3 other rooms).You can choose from 2 or 3 bathrooms in the house, so there is always some available for you.",
             "images": ["images/double-s1.jpeg", "images/double-s2.jpeg", "images/double-s5.jpeg", "images/double-s6.jpeg", "images/shared-bathroom1.jpeg"]}' id="1">
             <div class="hotel-room text-center">
-              <a class="d-block mb-0 thumbnail">
+              <a class="d-block mb-0 thumbnail" title="South Iceland room">
                 <img src="images/double-s1.jpeg" alt="Image" class="img-fluid room-img">
               </a>
               <div class="hotel-room-body">
@@ -156,7 +181,7 @@
           <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Double Room", "price": 23990, "details":"Double room with a private bathroom. There is one double bed or two single beds in each room. ",
           "images":["images/double-p1.jpeg", "images/double-p2.jpeg", "images/double-p3.png", "images/double-p4.png"]}'>
             <div class="hotel-room text-center">
-              <a class="d-block mb-0 thumbnail">
+              <a class="d-block mb-0 thumbnail" title="South Iceland room">
                 <img src="images/double-p1.jpeg" alt="Image" class="img-fluid room-img">
               </a>
               <div class="hotel-room-body">
@@ -173,7 +198,7 @@
           <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Family Room", "price": 34090, "details":"We offer two family rooms for 4 people. Every family room at our farmhouse has private bathroom with shower and toilet. There is one double bed and one bunk bed in the room.",
           "images": ["images/family1.jpeg", "images/family2.jpeg", "images/family3.jpeg"]}'>
             <div class="hotel-room text-center">
-              <a class="d-block mb-0 thumbnail">
+              <a class="d-block mb-0 thumbnail" title="South Iceland room">
                 <img src="images/family1.jpeg" alt="Image" class="img-fluid room-img">
               </a>
               <div class="hotel-room-body">
@@ -189,7 +214,7 @@
           <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Family Room", "price": 40310, "details":"We offer one family rooms for 6 people. Every family room at our farmhouse has private bathroom with shower and toilet. There is one double bed and two bunk beds in the room.", 
           "images": ["images/familylarge1.jpeg", "images/familylarge2.jpeg", "images/familylarge3.jpeg", "images/familylarge4.jpeg", "images/familylarge5.jpeg", "images/familylarge6.jpeg"]}'>
             <div class="hotel-room text-center">
-              <a class="d-block mb-0 thumbnail">
+              <a class="d-block mb-0 thumbnail" title="South Iceland room">
                 <img src="images/familylarge1.jpeg" alt="Image" class="img-fluid room-img">
               </a>
               <div class="hotel-room-body">
@@ -205,7 +230,7 @@
           <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Cottage", "price": 24910, "details":"Although the cottage looks small, there is a comfy bed, a table and a small bathroom with a shower. The view from the window while waking up is amazing.\n 1 double bed",
             "images": ["images/cottage1.jpeg", "images/cottage2.jpeg", "images/cottage3.png"]}'>
             <div class="hotel-room text-center">
-              <a class="d-block mb-0 thumbnail">
+              <a class="d-block mb-0 thumbnail" title="South Iceland room">
                 <img src="images/cottage1.jpeg" alt="Image" class="img-fluid room-img">
               </a>
               <div class="hotel-room-body">
@@ -221,7 +246,7 @@
           <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Container", "price": 16750, "details": "Container bulding with 4 rooms, nice view out on the field, private bathroom.\n One single bed and one bunk bed.",
               "images": ["images/container2.jpeg", "images/container1.jpeg", "images/container3.jpeg", "images/container4.jpeg"]}'>
             <div class="hotel-room text-center">
-              <a class="d-block mb-0 thumbnail">
+              <a class="d-block mb-0 thumbnail" title="South Iceland room">
                 <img src="images/container2.jpeg" alt="Image" class="img-fluid room-img">
               </a>
               <div class="hotel-room-body">
@@ -234,9 +259,9 @@
               </div>
             </div>
           </div>
-          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Three Bedroom Apartment", "price": 16750, "details":"", "images":["images/studio1.png", "images/studio2.png", "images/studio4.png", "images/studio3.png"]}'>
+          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Studio Apartment", "price": 34000, "details":"A cozy studio apartment, perfect for a small group of friends or family that enjoy seclusion.", "images":["images/studio1.png", "images/studio2.png", "images/studio4.png", "images/studio3.png"]}'>
             <div class="hotel-room text-center">
-              <a class="d-block mb-0 thumbnail">
+              <a class="d-block mb-0 thumbnail" title="South Iceland room">
                 <img src="images/studio1.png" alt="Image" class="img-fluid room-img">
               </a>
               <div class="hotel-room-body">
@@ -245,13 +270,13 @@
                 </h3>
                 <strong class="price">With private bathroom</strong>
                 <br>
-                <strong class="price">50.750 kr / per night</strong>
+                <strong class="price">34.000 kr / per night</strong>
               </div>
             </div>
           </div>
-          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Blue House", "price": 16750, "details":"A beautiful house, just for youself and your family. Contains five rooms which share two bathrooms.", "images":["images/blue-h1.png","images/blue-h2.png","images/blue-h3.png","images/blue-h4.png", "images/blue-h5.png", "images/blue-h7.png", "images/blue-h6.png"]}'>
+          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Blue House", "price": 75000, "details":"A beautiful house, just for youself and your family. Contains five rooms which share two bathrooms.", "images":["images/blue-h1.png","images/blue-h2.png","images/blue-h3.png","images/blue-h4.png", "images/blue-h5.png", "images/blue-h7.png", "images/blue-h6.png"]}'>
             <div class="hotel-room text-center">
-              <a class="d-block mb-0 thumbnail">
+              <a class="d-block mb-0 thumbnail" title="South Iceland room">
                 <img src="images/blue-h1.png" alt="Image" class="img-fluid room-img">
               </a>
               <div class="hotel-room-body">
@@ -341,18 +366,18 @@
                 cathedral ceiling open space eatery and bar – beautifully designed with capacity up to 300 guests. These
                 are three separated rooms, two of which (the smaller rooms) can be opened up and turned into one adjoining
                 room for up to 80 guests.</p>
-              <a class="see-more" href="#Contact_Us">Book Now →</a>
+              <a class="see-more" href="#Contact_Us" title="Northern lights booking">Book Now →</a>
             </div>
           </div>
           <div class="col-md-6">
             <div class="resturant">
-              <img src="images/demo2.jpg" alt="">
+              <img src="images/blind-raven.png" alt="">
               <h3 class="section-subheading">Blind Raven</h3>
               <p>Blind Raven takes place in a dark restaurant, where the customers do not see the food they are eating. The
                 basic concept is that the removal of vision enhances the other senses and increases gastronomic pleasure.
                 Since 1999 such restaurants have opened in many parts of the world. In blind Raven you will be experiencing
                 both the exquisite Icelandic cusine and your favorite foods in a new light, or lack there of.</p>
-              <a class="see-more" href="https://www.blindraven.is" target="_blank">See more →</a>
+              <a class="see-more" href="https://www.blindraven.is" target="_blank"  title="restaurant in south iceland">See more →</a>
             </div>
           </div>
         </div>
@@ -372,19 +397,7 @@
               allowfullscreen></iframe>
           </div>
           <div class="col-md-6 ml-auto">
-            <p class="mb-4">Við eigendur staðarins erum hjónin Jóhann Helgi Hlöðversson og Margrét Ormsdóttir. Árið 2005 festum við kaup
-              á jörðinni Vartnsholti, tókum okkur upp og fluttum ásamt börnum okkar úr Hafnarfirði austur fyrir fjall og
-              settumst að í Vatnsholti.
-              <br> Húsakynni vöru í talsverðri niðurníðslu og máttum við því heldur betur taka til hendinni. Kreppan árið 2008
-              setti stórt strik í reikninginn, bankar urðu gjaldþrota, lán hækkuðu og viðskiptu drógust saman. En þrátt fyrir
-              ógnarhramm kreppunnar og mikil fjárútlát við endurbætur, snerum við vörn í sókn og árið 2010 opnuðum við sveitagistiheimilið
-              Vatnsholt með 14 gistiherbergum.
-              <br> Skömmu síðar værðum við enn út kvíarnar, og í dag getum við boðið 34 gistiherbergi og veitingasali fyrir allt
-              að 300 manns.
-              <br> Vatnsholt er líf okkar og yndi og við lítum á gesti okkar sem hluta fjölskyldunnar, meðan þeir staldra við.
-              Það er okkur persónulegur heiður að fá að taka á móti ykkur hér í sveitasælunni, í von um að þið eigið hjá
-              okkur góða daga.
-              <br> Hér er meðfylgjandi myndband sem lýsir þeim breytingum sem orðið hafa á Vatnsholti í tímans rás:</p>
+            <p class="mb-4">The owners are the married couple Jóhann Helgi Hlöðversson and Margrét Ormsdóttir. In the year 2005 we bought the farm Vatnsholt and moved straight away from Reykjavík with our children east to the farm. Initially the farm was in a dire state of disrepair, which promted us to start repairing the place up. The financial crisis of 2008 set us back significantly, banks became bankrupt, instrests of loans became higher and business contracted. Threw the harsh economic crisis and the amount of money needed for rebuilding, we turned defence to offence and the year 2010 we opened guesthouse Vatnsholt with 14 rooms. Shortly after we expanded our business, and today we have 34 rooms to offer and a restaurant that can accommodate up to 300 people. Vatnsholt is our life and we look at our guests as part of our family, while they stay with us. It is our honor to welcome you to the countryside, with hope that you enjoy your stay with us.<br> The following video describes all of the changes that have taken place in Vatnsholt the past years.</p>
           </div>
         </div>
       </div>
@@ -406,7 +419,7 @@
             <p>Vatnsholt is surrounded by the beautiful Icelandic nature, which you can easly explore. We the owners at Vatnsholt
               have a reputation for being nature- and animal lovers. For years we have nurtured a small herd of domesticated
               animals, kindly dubbed by our guests as the Lilliputian Zoo.</p>
-            <a class="see-more" href="https://www.myvisiticeland.is/south/nature/?fbclid=IwAR0cqzzYX4O9RqPY1_uG1bXGNpPou5FRx_mrz9d-L-p_pQC1g5EpXhO0Dsw" target="_blank">See more →</a>
+            <a class="see-more" href="https://www.myvisiticeland.is/south/nature/?fbclid=IwAR0cqzzYX4O9RqPY1_uG1bXGNpPou5FRx_mrz9d-L-p_pQC1g5EpXhO0Dsw" target="_blank"  title="Activities in south iceland">See more →</a>
           </div>
         </div>
         <div class="col-md-4">
@@ -416,7 +429,7 @@
             <p>The Northern Lights are a spectacular natural occurrence which appears in the dark sky near the Earth’s poles
               around the Arctic and Antarctic Circles. This surreal phenomenon can light up the night sky and take on breathtaking
               shapes and colors to the awe and wonder of those who are lucky enough to witness it.</p>
-            <a class="see-more" href="https://adventures.is/information/about-northern-lights/" target="_blank">See more →</a>
+            <a class="see-more" href="https://adventures.is/information/about-northern-lights/" target="_blank"  title="Northern Lights in South Iceland">See more →</a>
           </div>
         </div>
         <div class="col-md-4">
@@ -426,7 +439,7 @@
             <p>Outdoor enthusiasts feel at home in South Iceland. Not only does the region have amazing places to visit, but
               a whole lot of avtivities as well. These activities might include river rafting, mountain climbing, horse riding
               and many more.</p>
-            <a class="see-more" href="https://www.myvisiticeland.is/south/activities/?fbclid=IwAR3V8Gr8yuEp8-pxtozR1TLZ4x5r99j_ZXbDrX5uRGNmE48thwYkbPPlyQE" target="_blank">See more →</a>
+            <a class="see-more" href="https://www.myvisiticeland.is/south/activities/?fbclid=IwAR3V8Gr8yuEp8-pxtozR1TLZ4x5r99j_ZXbDrX5uRGNmE48thwYkbPPlyQE" target="_blank"  title="South Iceland Nature">See more →</a>
           </div>
         </div>
       </div>
@@ -671,7 +684,7 @@
               </h5>
             </li>
             <li>
-              <h5 class="modal-heading">Parking
+              <h5 class="modal-heading">Free Parking
                 <i class="fas fa-check"></i>
               </h5>
             </li>
