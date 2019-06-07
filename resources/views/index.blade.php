@@ -145,7 +145,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Deluxe Room", "price": 26030, "details":"We offer one deluxe room with king size bed. There is private bathroom with bath.",
+          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Deluxe Room", "price": 26030, "details":"We offer one deluxe room with king size bed and a private bathroom with a tub.",
                     "images" : ["images/delux2.jpeg", "images/delux1.jpeg", "images/delux3.jpeg", "images/delux4.jpeg"]}'
             id="0">
             <div class="hotel-room text-center">
@@ -162,7 +162,7 @@
               </div>
             </div>
           </div>
-          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Double Room", "price": 19810, "details":"Are you looking for the cheapest offer? Choose one of ours rooms with shared bathroom. There is one double bed or two single beds in each room and on the same floor, you can find shared bathroom (shared with 2 or 3 other rooms).You can choose from 2 or 3 bathrooms in the house, so there is always some available for you.",
+          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Double Room", "price": 19810, "details":"Are you looking for a less expensive option?  We have double rooms with shared bathrooms. We have both rooms with double beds OR two twin beds. Bathrooms are shared with 2 – 3 rooms and are on the same floor.",
             "images": ["images/double-s1.jpeg", "images/double-s2.jpeg", "images/double-s5.jpeg", "images/double-s6.jpeg", "images/shared-bathroom1.jpeg"]}' id="1">
             <div class="hotel-room text-center">
               <a class="d-block mb-0 thumbnail" title="South Iceland room">
@@ -178,7 +178,7 @@
               </div>
             </div>
           </div>
-          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Double Room", "price": 23990, "details":"Double room with a private bathroom. There is one double bed or two single beds in each room. ",
+          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Double Room", "price": 23990, "details":"Double room with private bathroom. One double bed OR two twin beds.",
           "images":["images/double-p1.jpeg", "images/double-p2.jpeg", "images/double-p3.png", "images/double-p4.png"]}'>
             <div class="hotel-room text-center">
               <a class="d-block mb-0 thumbnail" title="South Iceland room">
@@ -195,7 +195,7 @@
             </div>
           </div>
 
-          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Family Room", "price": 34090, "details":"We offer two family rooms for 4 people. Every family room at our farmhouse has private bathroom with shower and toilet. There is one double bed and one bunk bed in the room.",
+          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Family Room", "price": 34090, "details":"We offer two Family rooms with private bathrooms with showers for 4 guests. These rooms have one double bed and a bunk bed.",
           "images": ["images/family1.jpeg", "images/family2.jpeg", "images/family3.jpeg"]}'>
             <div class="hotel-room text-center">
               <a class="d-block mb-0 thumbnail" title="South Iceland room">
@@ -211,7 +211,7 @@
               </div>
             </div>
           </div>
-          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Family Room", "price": 40310, "details":"We offer one family rooms for 6 people. Every family room at our farmhouse has private bathroom with shower and toilet. There is one double bed and two bunk beds in the room.", 
+          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Family Room", "price": 40310, "details":"We offer one family room for 6 guests.  This room has a private bathroom with a shower, one double bed and two bunk beds.", 
           "images": ["images/familylarge1.jpeg", "images/familylarge2.jpeg", "images/familylarge3.jpeg", "images/familylarge4.jpeg", "images/familylarge5.jpeg", "images/familylarge6.jpeg"]}'>
             <div class="hotel-room text-center">
               <a class="d-block mb-0 thumbnail" title="South Iceland room">
@@ -227,7 +227,7 @@
               </div>
             </div>
           </div>
-          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Cottage", "price": 24910, "details":"Although the cottage looks small, there is a comfy bed, a table and a small bathroom with a shower. The view from the window while waking up is amazing.\n 1 double bed",
+          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Cottage", "price": 24910, "details":"The cottage may look small, but it has everything you need for an enjoyable stay. Comfortable double bed, bathroom with a shower and an amazing view to wake up to.",
             "images": ["images/cottage1.jpeg", "images/cottage2.jpeg", "images/cottage3.png"]}'>
             <div class="hotel-room text-center">
               <a class="d-block mb-0 thumbnail" title="South Iceland room">
@@ -259,7 +259,7 @@
               </div>
             </div>
           </div>
-          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Studio Apartment", "price": 34000, "details":"A cozy studio apartment, perfect for a small group of friends or family that enjoy seclusion.", "images":["images/studio1.png", "images/studio2.png", "images/studio4.png", "images/studio3.png"]}'>
+          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Studio Apartment", "price": 34000, "details":"A cozy studio apartment, perfect for a small group of friends or family to enjoy privacy. The studio has a kitchenette and a bathroom with a shower. Sleeps 4.", "images":["images/studio1.png", "images/studio2.png", "images/studio4.png", "images/studio3.png"]}'>
             <div class="hotel-room text-center">
               <a class="d-block mb-0 thumbnail" title="South Iceland room">
                 <img src="images/studio1.png" alt="Image" class="img-fluid room-img">
@@ -274,7 +274,7 @@
               </div>
             </div>
           </div>
-          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Blue House", "price": 75000, "details":"A beautiful house, just for youself and your family. Contains five rooms which share two bathrooms.", "images":["images/blue-h1.png","images/blue-h2.png","images/blue-h3.png","images/blue-h4.png", "images/blue-h5.png", "images/blue-h7.png", "images/blue-h6.png"]}'>
+          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Blue House", "price": 75000, "details":"The “Blue House” is a beautiful private house to enjoy time with your family, a true home away from home. The house has five bedrooms, two bathrooms and a fully equipped kitchen along with a dining area and a living area with a TV. House sleeps?", "images":["images/blue-h1.png","images/blue-h2.png","images/blue-h3.png","images/blue-h4.png", "images/blue-h5.png", "images/blue-h7.png", "images/blue-h6.png"]}'>
             <div class="hotel-room text-center">
               <a class="d-block mb-0 thumbnail" title="South Iceland room">
                 <img src="images/blue-h1.png" alt="Image" class="img-fluid room-img">
@@ -373,10 +373,10 @@
             <div class="resturant">
               <img src="images/blind-raven.png" alt="">
               <h3 class="section-subheading">Blind Raven</h3>
-              <p>Blind Raven takes place in a dark restaurant, where the customers do not see the food they are eating. The
-                basic concept is that the removal of vision enhances the other senses and increases gastronomic pleasure.
-                Since 1999 such restaurants have opened in many parts of the world. In blind Raven you will be experiencing
-                both the exquisite Icelandic cusine and your favorite foods in a new light, or lack there of.</p>
+              <p>Blind Raven is a dark restaurant, meaning there is no light. The guests do not see the food they are enjoying. 
+              The basic concept is that the removal of vision enhances the other senses and increases gastronomic pleasure.  
+              Since 1999 such restaurants have opened in many parts of the world. At Blind Raven, you will experience the exquisite
+              Icelandic Cuisine and your favorite food in a different light or actually no light at all! </p>
               <a class="see-more" href="https://www.blindraven.is" target="_blank"  title="restaurant in south iceland">See more →</a>
             </div>
           </div>
@@ -397,7 +397,12 @@
               allowfullscreen></iframe>
           </div>
           <div class="col-md-6 ml-auto">
-            <p class="mb-4">The owners are the married couple Jóhann Helgi Hlöðversson and Margrét Ormsdóttir. In the year 2005 we bought the farm Vatnsholt and moved straight away from Reykjavík with our children east to the farm. Initially the farm was in a dire state of disrepair, which promted us to start repairing the place up. The financial crisis of 2008 set us back significantly, banks became bankrupt, instrests of loans became higher and business contracted. Threw the harsh economic crisis and the amount of money needed for rebuilding, we turned defence to offence and the year 2010 we opened guesthouse Vatnsholt with 14 rooms. Shortly after we expanded our business, and today we have 34 rooms to offer and a restaurant that can accommodate up to 300 people. Vatnsholt is our life and we look at our guests as part of our family, while they stay with us. It is our honor to welcome you to the countryside, with hope that you enjoy your stay with us.<br> The following video describes all of the changes that have taken place in Vatnsholt the past years.</p>
+            <p class="mb-4">We are husband and wife Jóhann Helgi Hlöðversson and Margrét Ormsdóttir.  In 2005 we bought Vatnsholt farm and moved here with our children. The farm needed a lot of work, so we immediately started renovations and rebuilding.  In late 2008 came a huge setback with the financial crisis that hit Iceland hard. We were forced to slow down the rebuild due to these difficulties.  With hard work and dedication, we opened Vatnsholt guesthouse in 2010. At that time, we had 14 rooms but today they have expanded to 34 rooms and a restaurant that can accommodate up to 300 guests.  
+            <br>
+            Vatnsholt guesthouse is our passion and we look at every guest that stays with us as part of our family. We are honored you choose our guesthouse when traveling around our beautiful country and hope you enjoy your stay with us. 
+            <br>
+            This video shows the changes that have taken place at Vatnsholt since we came here. 
+            </p>
           </div>
         </div>
       </div>
@@ -416,9 +421,9 @@
           <div class="activity">
             <img src="images/activity2.jpg" alt="">
             <h3 class="section-subheading">Nature</h3>
-            <p>Vatnsholt is surrounded by the beautiful Icelandic nature, which you can easly explore. We the owners at Vatnsholt
-              have a reputation for being nature- and animal lovers. For years we have nurtured a small herd of domesticated
-              animals, kindly dubbed by our guests as the Lilliputian Zoo.</p>
+            <p>Vatnsholt is surrounded by the magnificent Icelandic nature which guests can easily explore.  
+            We, the owners have a reputation for being nature- and animal lovers.  For years we have kept a small
+            collection of domesticated animals which our guests have lovingly called Lilliputian Zoo.</p>
             <a class="see-more" href="https://www.myvisiticeland.is/south/nature/?fbclid=IwAR0cqzzYX4O9RqPY1_uG1bXGNpPou5FRx_mrz9d-L-p_pQC1g5EpXhO0Dsw" target="_blank"  title="Activities in south iceland">See more →</a>
           </div>
         </div>
@@ -426,7 +431,7 @@
           <div class="activity">
             <img src="images/activity3.jpg" alt="">
             <h3 class="section-subheading">Northern Lights</h3>
-            <p>The Northern Lights are a spectacular natural occurrence which appears in the dark sky near the Earth’s poles
+            <p>The Northern Lights are a spectacular natural occurrence which appears in the dark sky from September to April near the Earth’s poles
               around the Arctic and Antarctic Circles. This surreal phenomenon can light up the night sky and take on breathtaking
               shapes and colors to the awe and wonder of those who are lucky enough to witness it.</p>
             <a class="see-more" href="https://adventures.is/information/about-northern-lights/" target="_blank"  title="Northern Lights in South Iceland">See more →</a>
@@ -436,9 +441,9 @@
           <div class="activity">
             <img src="images/activity1.jpg" alt="">
             <h3 class="section-subheading">Activities</h3>
-            <p>Outdoor enthusiasts feel at home in South Iceland. Not only does the region have amazing places to visit, but
-              a whole lot of avtivities as well. These activities might include river rafting, mountain climbing, horse riding
-              and many more.</p>
+            <p>Outdoor enthusiasts and nature lovers feel at home in Southern Iceland. 
+            Not only does the southern region have amazing places to visit but a lot of activities as well.  
+            These activities include river rafting, hiking, fishing, climbing, horseback riding and many more. </p>
             <a class="see-more" href="https://www.myvisiticeland.is/south/activities/?fbclid=IwAR3V8Gr8yuEp8-pxtozR1TLZ4x5r99j_ZXbDrX5uRGNmE48thwYkbPPlyQE" target="_blank"  title="South Iceland Nature">See more →</a>
           </div>
         </div>
@@ -455,8 +460,7 @@
       </div>
       <div class="row">
         <div class="col-md-6 mb-5 mb-md-0">
-          <p class="mb-4">The guesthouse Vatnsholt is situated in south Iceland, surrounding is the beautiful Icelandic nature. The official
-            address is Vatnsholt 2, 801 Selfoss.</p>
+          <p class="mb-4">Vatnsholt Guesthouse is located in Southern Iceland, surrounded by the beauty of Icelandic nature. The official address is Vatnsholt 2, 801 Selfoss.</p>
           <iframe class="map" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.is/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Vatnsholt+Bed+%26+Breakfast,+Villingaholt&amp;aq=0&amp;oq=vatnsholt&amp;sll=64.925265,-19.02117&amp;sspn=8.878183,33.815918&amp;ie=UTF8&amp;hq=Vatnsholt+Bed+%26+Breakfast,+Villingaholt&amp;hnear=&amp;ll=63.877047,-20.80553&amp;spn=0.287261,1.056747&amp;t=m&amp;z=11&amp;iwloc=A&amp;cid=4902794287333613319&amp;output=embed"></iframe>
         </div>
         <div class="col-md-2 mb-5 mb-md-0">
